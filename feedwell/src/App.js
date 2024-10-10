@@ -18,6 +18,13 @@ function App() {
     Sunday: { breakfast: '', lunch: '', dinner: '' }
   });
 
+  const handleButtnOnClick = () => {
+    setSeeDays('seeDays');
+  }
+
+  const handleDishOnClick = () => {
+    setSetDish ('setDish');
+  }
 
 
   return (
