@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const [seeDays, setSeeDays] = useState('false');
-  const [weekDays, setWeekDays] = useState('false');
+  const [weekDay, setWeekDay] = useState('null');
   const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   const [setDish, setSetDish] = useState({
     Monday: { breakfast: '', lunch: '', dinner: '' },
@@ -18,18 +18,36 @@ function App() {
     Sunday: { breakfast: '', lunch: '', dinner: '' }
   });
 
-  const handleButtnOnClick = () => {
-    setSeeDays('seeDays');
+  const handleButtonClick = () => {
+    setSeeDays(!seeDays);
   }
 
-  const handleDishOnClick = () => {
-    setSetDish ('setDish');
+  const handleDayClick = (day) => {
+    setWeekDay ('day');
   }
 
 
   return (
     <div className="App">
-     <h1>FeedWell</h1>
+  
+        <h1>FeedWell</h1>
+        <button className="toggle-button" onClick={handleButtonClick}>
+          {seeDays ? 'Hide Days' : 'See Days'}
+        </button>
+
+        {seeDays && (
+          <div className="days-list">
+            {listDays.map((day, index) => (
+              <div key={index} className="day" onClick={() => handleDayClick(day)}>
+                {day}
+
+              </div>
+            ))}
+
+          </div>
+        )}
+      
+     
     </div>
   );
 }
