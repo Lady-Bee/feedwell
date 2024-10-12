@@ -1,5 +1,5 @@
 function Weekday() {
-    return <h2>show days</h2>
+    return <h3>show number of days</h3>
 }
 
 export default Weekday;

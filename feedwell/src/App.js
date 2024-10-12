@@ -1,14 +1,15 @@
 import { useState } from "react";
-import ReactDOM from "react-dom/client";
-
-
 import './App.css';
+import './assets/background.jpg';
 
 function App() {
   const [seeDays, setSeeDays] = useState('false');
+
   const [weekDay, setWeekDay] = useState('null');
+
   const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-  const [setDish, setSetDish] = useState({
+
+  const [Dish, setDish] = useState({
     Monday: { breakfast: '', lunch: '', dinner: '' },
     Tuesday: { breakfast: '', lunch: '', dinner: '' },
     Wednesday: { breakfast: '', lunch: '', dinner: '' },
