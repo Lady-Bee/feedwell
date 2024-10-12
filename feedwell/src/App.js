@@ -61,6 +61,22 @@ function App() {
 
           </div>
         )}
+
+        {weekDay && (
+          <div className="meal-form">
+            <h2>Meals for {weekDay}</h2>
+            <div className="meal-input">
+              <label>Breakfast: </label>
+              <input
+              type="text"
+              value={dishes[weekDay].breakfast}
+              onChange={(e) => handleDishChange('breakfast', e.target.value)}
+              />
+            </div>
+          </div>
+        )
+
+        }
       
      
     </div>
