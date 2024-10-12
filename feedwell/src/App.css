@@ -109,6 +109,30 @@ h2 {
 }
 
 
+
+@media only screen and (max-width: 600px) {
+  /* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+} */
+
+.days-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
