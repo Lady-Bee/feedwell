@@ -11,6 +11,33 @@
   min-height: 100vh;
 }
 
+h1 {
+  color: #CC5500;
+  text-align: left;
+  
+}
+
+h2 {
+  
+  margin-bottom: 1.25rem;
+  
+}
+
+
+.toggle-button {
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #28a99e;
+  color: white;
+  border: none;
+  border-radius: 0.313rem;
+  margin-bottom: 1.25rem;
+}
+
+.toggle-button:hover {
+  background-color: #037c6e;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
