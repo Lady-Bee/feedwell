@@ -38,6 +38,27 @@ h2 {
 .toggle-button:hover {
   background-color: #037c6e;
 }
+
+.days-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+
+.day {
+  margin: 0.625rem 0.625rem;
+  padding: 0.625rem;
+  background-color: #c05508de;
+  border: 0.125rem solid;
+  border-radius: 0.25rem;
+  width: 9.375rem;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
