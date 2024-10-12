@@ -27,6 +27,16 @@ function App() {
     setWeekDay ('day');
   }
 
+  const handleDishChange = (dishType, value) => {
+    setDish({
+      ...dishes,
+      [weekDay]: {
+        ...dishes[weekDay],
+        [dishType]: value
+      }
+    })
+  }
+
 
   return (
     <div className="App">
