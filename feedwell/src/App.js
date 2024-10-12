@@ -9,7 +9,7 @@ function App() {
 
   const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-  const [Dish, setDish] = useState({
+  const [dishes, setDish] = useState({
     Monday: { breakfast: '', lunch: '', dinner: '' },
     Tuesday: { breakfast: '', lunch: '', dinner: '' },
     Wednesday: { breakfast: '', lunch: '', dinner: '' },
