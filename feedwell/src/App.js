@@ -21,11 +21,11 @@ function App() {
 
   const handleButtonClick = () => {
     setSeeDays(!seeDays);
-  }
+  };
 
   const handleDayClick = (day) => {
     setWeekDay ('day');
-  }
+  };
 
   const handleDishChange = (dishType, value) => {
     setDish({
@@ -34,8 +34,12 @@ function App() {
         ...dishes[weekDay],
         [dishType]: value
       }
-    })
-  }
+    });
+  };
+
+  const handleSubmit = () => {
+    setWeekDay(null);
+  };
 
 
   return (
