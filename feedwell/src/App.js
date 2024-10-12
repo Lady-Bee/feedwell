@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import './App.css';
 import './assets/background.jpg';
 
@@ -18,6 +18,7 @@ function App() {
     Saturday: { breakfast: '', lunch: '', dinner: '' },
     Sunday: { breakfast: '', lunch: '', dinner: '' }
   });
+  
 
   const handleButtonClick = () => {
     setSeeDays(!seeDays);
