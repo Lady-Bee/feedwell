@@ -92,6 +92,23 @@ h2 {
 }
 
 
+
+.submit-button {
+  padding: 0.625rem 1.25rem;
+  margin-top: 0.625rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #037c6e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #28a99e;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
