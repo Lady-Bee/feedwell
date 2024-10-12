@@ -67,9 +67,20 @@ h2 {
   width: 19.375rem;
   height: 17.5rem;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.meal-input {
+  margin-bottom: 1.25rem;
+}
+
+.meal-input label {
+  margin-right:  0.625rem;
+}
+
+
+.meal-input input {
+  padding: 0.5rem;
+  margin-left: 0.936rem;
+  border-radius: 0.25rem ;
+  border:  1px solid black ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
