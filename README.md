@@ -16,12 +16,10 @@
 <p align="center">
    <img src="fw_logo.png" alt="Logo" width="300" height="300">
 </p>
-  
 <h2 align="center">FeedWell</h2>
-
   <p align="center">
     A weekly meal planner App
-    <br />
+ <br />
  
 
 
