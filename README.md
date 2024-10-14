@@ -14,9 +14,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="fw_logo.png" alt="Logo" width="150px" height="150px">
+  <img src="fw_logo.png" alt="Logo" width="200" height="200">
 </p>
-
+  
 <h2 align="center">FeedWell</h2>
 
   <p align="center">
@@ -149,7 +149,7 @@ Project Link: [feedwell](https://github.com/Lady-Bee/feedwell.git)
 * [w3schools](https://www.w3schools.com/REACT/default.asp)
 * [Google Images](https://images.google.com/)
 * [Choose an open Source License](https://choosealicense.com)          
-* [shields.io](https://shields.io/badges)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
