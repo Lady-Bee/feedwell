@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Backgroud Screenshot](assets/background.png)
+![Backgroud Screenshot](feedwell_bg.png)
 
 This meal planner is a Single Page Application (SPA) created using React. It allows users to plan their meals for the week and also provides a simple and user-friendly interface where users can input and track their meal options for each day. 
 
