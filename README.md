@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./assets/background.jpg)
+[![Product Name Screen Shot][./assets/background.jpg]](./assets/background.jpg)
 
 This meal planner is a Single Page Application (SPA) created using React. It allows users to plan their meals for the week and also provides a simple and user-friendly interface where users can input and track their meal options for each day. 
 
