@@ -16,7 +16,8 @@
 
  
 
-  <h3 align="center">FeedWell</h3>
+  
+<h2 align="center">FeedWell</h2>
 
   <p align="center">
     A weekly meal planner App
