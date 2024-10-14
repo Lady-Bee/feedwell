@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import "./assets/background.jpg";
-
+// import logo from "./assets/fw_logo.png";
 function App() {
   const [seeDays, setSeeDays] = useState(false);
 
@@ -45,7 +45,14 @@ function App() {
 
   return (
     <div className="App">
-  
+ 
+ 
+
+
+ {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
+   <img src={logo} alt="Logo" width="200" height="150" />
+</div> */}
+
         <h1>FeedWell</h1>
         <button className="toggle-button" onClick={handleButtonClick}>
           {seeDays ? 'Hide Days' : 'See Days'}

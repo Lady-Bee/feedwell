@@ -10,7 +10,11 @@
   background-position: center;
   min-height: 100vh;
 }
-
+/* img {
+  width: 200px;
+  height: 150px;
+  
+} */
 h1 {
   color: #CC5500;
   text-align: left;
