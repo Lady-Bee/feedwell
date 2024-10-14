@@ -14,7 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="fw_logo.png" alt="Logo" width="200" height="200">
+   <img src="fw_logo.png" alt="Logo" width="300" height="300">
 </p>
   
 <h2 align="center">FeedWell</h2>
