@@ -70,7 +70,7 @@ This meal planner is a Single Page Application (SPA) created using React. It all
 ## Getting Started
 
 
-To get the app up and running follow these simple example steps.
+To get the app up and running follow these simple  steps.
 
 ### Prerequisites
 
