@@ -152,7 +152,7 @@ Project Link: [feedwell](https://github.com/Lady-Bee/feedwell.git)
 [contributors-url]: https://github.com/Lady-Bee/feedwell.git/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Lady-Bee/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/Lady-Bee/repo/network/members
-[license-shield]: https://img.shields.io/github/license/Lady-Bee/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Lady-Bee/feedwell.svg?style=for-the-badge
 [license-url]: https://github.com/Lady-Bee/feedwell/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bisolaadeboye/
