@@ -13,9 +13,6 @@
 <p align="center">
   <img src="fw1.png" alt="Logo" width="150" height="150">
 </p>
-
- 
-
   
 <h2 align="center">FeedWell</h2>
 
@@ -149,3 +146,19 @@ Project Link: [feedwell](https://github.com/Lady-Bee/feedwell.git)
 * [w3schools](https://www.w3schools.com/REACT/default.asp)
 * [Google Images](https://images.google.com/)
 * [Choose an open Source License](https://choosealicense.com)          
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Lady-Bee/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/Lady-Bee/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Lady-Bee/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/Lady-Bee/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/Lady-Bee/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/Lady-Bee/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Lady-Bee/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/Lady-Bee/repo/issues
+[license-shield]: https://img.shields.io/github/license/Lady-Bee/repo.svg?style=for-the-badge
+[license-url]: https://github.com/Lady-Bee/repo/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/Lady-Bee
