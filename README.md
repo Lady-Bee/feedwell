@@ -12,7 +12,9 @@
 <br />
 <p align="center">
 
-   ![Logo](fw1.png)
+
+    <img src="fw1.png" alt="Logo" width="100" height="100">
+  
  
 
   <h3 align="center">FeedWell</h3>
