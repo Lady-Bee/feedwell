@@ -12,7 +12,9 @@
 <br />
 <p align="center">
 
+   <a href="https://github.com/github_username/repo_name">
    ![Logo](fw1.png)
+  </a>
  
 
   <h3 align="center">FeedWell</h3>
