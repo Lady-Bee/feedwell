@@ -133,7 +133,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Bisola Adeboye 
 
-Connect with me on [Linkedin](https://www.linkedin.com/in/bisolaadeboye/)
+Connect  on [Linkedin](https://www.linkedin.com/in/bisolaadeboye/)
 
 Project Link: [feedwell](https://github.com/Lady-Bee/feedwell.git)
 
