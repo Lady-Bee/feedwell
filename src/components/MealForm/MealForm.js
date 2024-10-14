@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './MealForm.css';
 const MealForm = ({ weekDay, dishes, handleDishChange, handleSubmit }) => {
   return (
     <div className="meal-form">

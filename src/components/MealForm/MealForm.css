@@ -1,0 +1,55 @@
+h2 {
+  
+    margin-bottom: 1.25rem;
+    
+  }
+
+  .meal-form {
+    margin-top: 2.5rem;
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 19.375rem;
+    height: 17.5rem;
+  }
+  .meal-input {
+    margin-bottom: 1.25rem;
+  }
+  
+  .meal-input label {
+    margin-right:  0.625rem;
+  }
+  
+  
+  .meal-input input {
+    padding: 0.5rem;
+    margin-left: 0.936rem;
+    border-radius: 0.25rem ;
+    border:  1px solid black ;
+  }
+  
+  .meal-input .lunch {
+    margin-right: 29px;
+  }
+  
+  .meal-input .dinner {
+    margin-right: 1.813rem;
+  }
+  
+  
+  
+  .submit-button {
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #037c6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #28a99e;
+  }

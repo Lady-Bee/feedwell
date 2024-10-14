@@ -10,125 +10,14 @@
   background-position: center;
   min-height: 100vh;
 }
-/* img {
-  width: 200px;
-  height: 150px;
-  
-} */
-h1 {
-  color: #CC5500;
-  text-align: left;
-  font-size: 3rem;
-}
 
-h2 {
-  
-  margin-bottom: 1.25rem;
-  
-}
-
-
-.toggle-button {
-  padding: 0.625rem 1.25rem;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: #28a99e;
-  color: white;
-  border: none;
-  border-radius: 0.313rem;
-  margin-bottom: 1.25rem;
-}
-
-.toggle-button:hover {
-  background-color: #037c6e;
-}
-
-.list-days{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-}
-
-
-.day {
-  margin: 0.625rem 0.625rem;
-  padding: 0.625rem;
-  background-color: #c05508de;
-  border: 0.125rem solid;
-  border-radius: 0.25rem;
-  width: 9.375rem;
-  text-align: center;
-  font-size: 1.125rem;
-  color: white;
-}
-.meal-form {
-  margin-top: 2.5rem;
-  background-color: white;
-  padding: 1.25rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  width: 19.375rem;
-  height: 17.5rem;
-}
-.meal-input {
-  margin-bottom: 1.25rem;
-}
-
-.meal-input label {
-  margin-right:  0.625rem;
-}
-
-
-.meal-input input {
-  padding: 0.5rem;
-  margin-left: 0.936rem;
-  border-radius: 0.25rem ;
-  border:  1px solid black ;
-}
-
-.meal-input .lunch {
-  margin-right: 29px;
-}
-
-.meal-input .dinner {
-  margin-right: 1.813rem;
-}
-
-
-
-.submit-button {
-  padding: 0.625rem 1.25rem;
-  margin-top: 0.625rem;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: #037c6e;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-.submit-button:hover {
-  background-color: #28a99e;
-}
 
 
 
 @media only screen and (max-width: 600px) {
-  /* .App {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(background.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-} */
+  
 
-.days-list {
+  .list-days {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,27 +28,16 @@ h2 {
 
 
 @media only screen and (min-width: 600px) {
-  .App {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("./assets/background.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-}
+  
 
-  .days-list {
+.list-days {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 
 
-  .days-list .day:nth-child(7) {
+  .list-days .day:nth-child(7) {
     grid-column: 2 / span 1; 
     justify-self: center; 
   }
@@ -169,20 +47,7 @@ h2 {
 
 
 @media only screen and (min-width: 1025px) {
-  .App {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("./assets/background.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-}
-
-.days-list {
+.list-days {
   display: flex;
   flex-direction:  row;
   align-items: center;
