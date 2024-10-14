@@ -43,7 +43,7 @@ h2 {
   background-color: #037c6e;
 }
 
-.days-list {
+.list-days{
   display: flex;
   flex-direction: row;
   align-items: center;
