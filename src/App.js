@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import './App.css';
-import './assets/background.jpg';
+import "./assets/background.jpg";
 
 function App() {
-  const [seeDays, setSeeDays] = useState('false');
+  const [seeDays, setSeeDays] = useState(false);
 
-  const [weekDay, setWeekDay] = useState('null');
+  const [weekDay, setWeekDay] = useState(null);
 
   const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
@@ -25,7 +25,7 @@ function App() {
   };
 
   const handleDayClick = (day) => {
-    setWeekDay ('day');
+    setWeekDay(day);
   };
 
   const handleDishChange = (dishType, value) => {
@@ -75,7 +75,7 @@ function App() {
               />
             </div>
             <div className="meal-input">
-              <label>Lunch: </label>
+              <label className="lunch">Lunch: </label>
               <input
               type="text"
               value={dishes[weekDay].lunch}
@@ -83,14 +83,14 @@ function App() {
               />
             </div>
             <div className="meal-input">
-              <label>Dinner: </label>
+              <label className="dinner">Dinner: </label>
               <input
               type="text"
               value={dishes[weekDay].dinner}
               onChange={(e) => handleDishChange('dinner', e.target.value)}
               />
             </div>
-            <button className="submit-button" onClick={handleSubmit}>Submit Dish</button>
+            <button className="submit-button" onClick={handleSubmit}>Submit Meals</button>
           </div>
         )}
     </div>
