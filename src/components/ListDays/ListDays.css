@@ -1,19 +1,58 @@
 .list-days{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   
-  
-  .day {
-    margin: 0.625rem 0.625rem;
-    padding: 0.625rem;
-    background-color: #c05508de;
-    border: 0.125rem solid;
-    border-radius: 0.25rem;
-    width: 9.375rem;
-    text-align: center;
-    font-size: 1.125rem;
-    color: white;
-  }
+}
+
+
+.day {
+  margin: 0.625rem 0.625rem;
+  padding: 0.625rem;
+  background-color: #c05508de;
+  border: 0.125rem solid;
+  border-radius: 0.25rem;
+  width: 9.375rem;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+.list-days {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+
+.list-days {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+
+.list-days .day:nth-child(7) {
+  grid-column: 2 / span 1; 
+  justify-self: center; 
+}
+
+}
+
+
+@media only screen and (min-width: 1025px) {
+.list-days {
+display: flex;
+flex-direction:  row;
+align-items: center;
+}
+
+}

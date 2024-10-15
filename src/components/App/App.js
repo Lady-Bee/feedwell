@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 // import Logo from './components/Logo/Logo';
-import Header from './components/Header/Header';
-import ListDays from './components/ListDays/ListDays';
-import MealForm from './components/MealForm/MealForm';
+import Header from '../Header/Header';
+import ListDays from '../ListDays/ListDays';
+import MealForm from '../MealForm/MealForm';
 
 function App() {
   const [seeDays, setSeeDays] = useState(false);
