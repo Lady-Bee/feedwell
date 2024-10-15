@@ -18,14 +18,9 @@
   color: white;
 }
 
+/*  media query for mobile screen size */
 @media only screen and (max-width: 600px) {
 
-/* 
-.list-days {
-display: flex;
-flex-direction: column;
-align-items: center;
-} */
 .list-days {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -37,7 +32,7 @@ align-items: center;
   justify-self: center; 
 }
 .day {
-  margin: 0.3rem 0.425rem 0.3rem 0.425rem;
+  margin: -0.5rem 0.425rem 0.3rem 0.425rem;
   padding: 0.4rem;
   background-color: #c05508de;
   border: 0.125rem solid;
@@ -50,30 +45,23 @@ align-items: center;
 
 }
 
+/*  media query for tablet screen size */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  
+  
+  .list-days {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  
+  .list-days .day:nth-child(7) {
+    grid-column: 2 / span 1; 
+    justify-self: center; 
+  }
+  
+  }
 
-@media only screen and (min-width: 600px) {
 
 
-.list-days {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-
-.list-days .day:nth-child(7) {
-  grid-column: 2 / span 1; 
-  justify-self: center; 
-}
-
-}
-
-
-@media only screen and (min-width: 1025px) {
-.list-days {
-display: flex;
-flex-direction:  row;
-align-items: center;
-}
-
-}
