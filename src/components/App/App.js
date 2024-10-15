@@ -6,11 +6,18 @@ import ListDays from '../ListDays/ListDays';
 import MealForm from '../MealForm/MealForm';
 
 function App() {
-  const [seeDays, setSeeDays] = useState(false);
-  const [weekDay, setWeekDay] = useState(null);
+ // State to manage the visibility of the days
+ const [seeDays, setSeeDays] = useState(false);
 
-  const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+// State to manage the currently selected day for entering meals
+ const [weekDay, setWeekDay] = useState(null);
 
+
+// Array of days to display
+const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+
+// State to store meal data
   const [dishes, setDish] = useState({
     Monday: { breakfast: '', lunch: '', dinner: '' },
     Tuesday: { breakfast: '', lunch: '', dinner: '' },
@@ -21,14 +28,20 @@ function App() {
     Sunday: { breakfast: '', lunch: '', dinner: '' }
   });
 
+
+// Toggle visibility of days when the button is clicked
   const handleButtonClick = () => {
     setSeeDays(!seeDays);
   };
 
+
+// Handle clicking on a day to show the meal input form
   const handleDayClick = (day) => {
     setWeekDay(day);
   };
 
+
+// Handle meal input changes
   const handleDishChange = (dishType, value) => {
     setDish({
       ...dishes,
@@ -39,9 +52,13 @@ function App() {
     });
   };
 
+
+// Submit meals 
   const handleSubmit = () => {
+// After submission, hide the selected day and reset form
     setWeekDay(null);
   };
+
 
   return (
     <div className="App">
