@@ -30,9 +30,10 @@ const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satur
 
 
 // Toggle visibility of days when the button is clicked
-  const handleButtonClick = () => {
-    setSeeDays(!seeDays);
-  };
+const handleButtonClick = () => {
+  setSeeDays(!seeDays); // Toggle visibility of days list
+  setWeekDay(null); // Reset the selected day to hide the meal form
+};
 
 
 // Handle clicking on a day to show the meal input form
