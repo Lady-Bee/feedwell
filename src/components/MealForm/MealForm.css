@@ -95,7 +95,7 @@ align-items: center;
     border-radius: 0.5rem;
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
     width: 18rem;
-    height: 15.2rem;
+    height: 15rem;
   }
 
   h2 {
@@ -105,7 +105,7 @@ align-items: center;
   }
   .submit-button {
     padding: 0.625rem 1.25rem;
-    margin-top: -0.1rem;
+    margin-top: -0.3rem;
     font-size: 1rem;
     cursor: pointer;
     background-color: #037c6e;
