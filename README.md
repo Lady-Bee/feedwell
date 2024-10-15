@@ -116,7 +116,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTRIBUTING -->
 ## Contributing
 
-We are looking to add more features to this project but will definitely
+We are looking to add more features to this project, but will definitely
 open it to contributions at its completion.
 
 
