@@ -14,12 +14,13 @@
 
 @media only screen and (max-width: 600px) {
 
-  /* 
-  .list-days {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  } */
+  .App {
+    min-height: 80vh; 
+    height: 100vh; 
+    overflow-y: auto; 
+    /* padding: 1rem; */
+  }
+
   h1 {
     color: #CC5500;
     text-align: left;
@@ -49,30 +50,31 @@
     color: white;
   }
   
-   .meal-form {
-      margin-top: 1.5rem;
-      background-color: white;
-      padding: 1rem 1.25rem 1rem 1.25rem;
-      border-radius: 0.5rem;
-      box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-      width: 18rem;
-      height: 16rem;
-    }
+  .meal-form {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 18rem;
+    height: 15.5rem;
+  }
   
     h2 {
     
       margin-top: 0.5rem;
       
     }
-   .submit-button {
+    .submit-button {
       padding: 0.625rem 1.25rem;
-      margin-top: 0.2rem;
+      margin-top: -0.1rem;
       font-size: 1rem;
       cursor: pointer;
       background-color: #037c6e;
       color: white;
       border: none;
       border-radius: 5px;
+      width: 9rem;
     }
   
   }

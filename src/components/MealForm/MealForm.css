@@ -89,13 +89,13 @@ align-items: center;
 }
 
  .meal-form {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     background-color: white;
     padding: 1rem 1.25rem 1rem 1.25rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
     width: 18rem;
-    height: 16rem;
+    height: 15.5rem;
   }
 
   h2 {
@@ -103,15 +103,16 @@ align-items: center;
     margin-top: 0.5rem;
     
   }
- .submit-button {
+  .submit-button {
     padding: 0.625rem 1.25rem;
-    margin-top: 0.2rem;
+    margin-top: -0.1rem;
     font-size: 1rem;
     cursor: pointer;
     background-color: #037c6e;
     color: white;
     border: none;
     border-radius: 5px;
+    width: 9rem;
   }
 
 }
