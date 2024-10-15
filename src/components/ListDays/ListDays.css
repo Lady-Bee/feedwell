@@ -21,23 +21,13 @@
 @media only screen and (max-width: 600px) {
 
 
-/* .list-days {
+.list-days {
 display: flex;
 flex-direction: column;
 align-items: center;
-} */
-
-.list-days {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
 }
 
 
-.list-days .day:nth-child(7) {
-  grid-column: 2 / span 1; 
-  justify-self: center; 
-}
 }
 
 
