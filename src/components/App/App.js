@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Logo from '../Logo/Logo';
+// import Logo from '../Logo/Logo';
 import Header from '../Header/Header';
 import ListDays from '../ListDays/ListDays';
 import MealForm from '../MealForm/MealForm';
@@ -62,7 +62,7 @@ const listDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satur
 
   return (
     <div className="App">
-      <Logo />
+      {/* <Logo /> */}
       <Header seeDays={seeDays} handleButtonClick={handleButtonClick} />
       {seeDays && <ListDays listDays={listDays} handleDayClick={handleDayClick} />}
       {weekDay && (
