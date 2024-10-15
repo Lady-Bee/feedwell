@@ -50,6 +50,68 @@ h2 {
     border-radius: 5px;
   }
   
+ 
+
   .submit-button:hover {
     background-color: #28a99e;
   }
+
+@media only screen and (max-width: 600px) {
+
+/* 
+.list-days {
+display: flex;
+flex-direction: column;
+align-items: center;
+} */
+
+.list-days {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.list-days .day:nth-child(7) {
+  grid-column: 1 / span 2; 
+  justify-self: center; 
+}
+
+.day {
+  margin: 0.325rem 0.425rem 0.3rem 0.425rem;
+  padding: 0.4rem;
+  background-color: #c05508de;
+  border: 0.125rem solid;
+  border-radius: 0.25rem;
+  width: 7.375rem;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
+}
+
+ .meal-form {
+    margin-top: 1.5rem;
+    background-color: white;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 18rem;
+    height: 16rem;
+  }
+
+  h2 {
+  
+    margin-top: 0.5rem;
+    
+  }
+ .submit-button {
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #037c6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+}
