@@ -37,7 +37,7 @@ align-items: center;
   justify-self: center; 
 }
 .day {
-  margin: 0.325rem 0.425rem 0.3rem 0.425rem;
+  margin: 0.3rem 0.425rem 0.3rem 0.425rem;
   padding: 0.4rem;
   background-color: #c05508de;
   border: 0.125rem solid;
