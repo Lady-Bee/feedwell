@@ -1,8 +1,38 @@
 h1 {
+  color: #CC5500;
+  text-align: left;
+  font-size: 3rem;
+}
+
+
+
+.toggle-button {
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #28a99e;
+  color: white;
+  border: none;
+  border-radius: 0.313rem;
+  margin-bottom: 1.25rem;
+}
+
+.toggle-button:hover {
+  background-color: #037c6e;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
     color: #CC5500;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2rem;
+    
   }
+  
+  
+  
   
 
   
@@ -14,9 +44,9 @@ h1 {
     color: white;
     border: none;
     border-radius: 0.313rem;
-    margin-bottom: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+
   }
-  
-  .toggle-button:hover {
-    background-color: #037c6e;
-  }
+
+}
