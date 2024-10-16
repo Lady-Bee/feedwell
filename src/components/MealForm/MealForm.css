@@ -51,6 +51,7 @@ h2 {
     background-color: #28a99e;
   }
 
+/*  media query for mobile screen size */
 @media only screen and (max-width: 600px) {
 
 .list-days {
