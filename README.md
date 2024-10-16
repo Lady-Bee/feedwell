@@ -105,9 +105,9 @@ To get the app up and running follow these simple  steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The app's user interface is quite simple and interactive. Use this app to store in your daily meal options for a week. Below is a video demo showing how to navigate the app.
 
-_For more examples, please refer to the [Documentation](https://youtu.be/uX9FQ7W-Kr0?si=taImSoUJbflPMRT_)_
+To watch, please refer to or click on [Video Demo](https://youtu.be/uX9FQ7W-Kr0?si=taImSoUJbflPMRT_)_
 
 
 
